@@ -1,5 +1,7 @@
 package zoho_feb6;
 
+import java.util.Scanner;
+
 public class InnerReduce {
 	
 	public static void innerReduce(int num) {
@@ -19,7 +21,9 @@ public class InnerReduce {
 
 	public static void main(String[] args) {
 		
-		innerReduce(10);
+		Scanner scan = new Scanner(System.in);
+		int num = scan.nextInt();
+		innerReduce(num);
 	}
 
 }
